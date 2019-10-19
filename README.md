@@ -1,2 +1,2 @@
 # Nasa-Apod-Discord-Bot
-Discord bot that returns the Astronomy Picture of the Day
+Discord bot that returns the Astronomy Picture of the Day created with DiscordGo and NASA api
