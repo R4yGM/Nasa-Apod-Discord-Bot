@@ -12,7 +12,7 @@ import (
 )
 func main(){
 
-	discord, err := discordgo.New("Bot " + "NjIzOTA4NTcxOTQ3NTk3ODI0.XYJYcA.ImwHYRuCfdzuWx3lAJGn-NRymwA")
+	discord, err := discordgo.New("Bot " + "Discord token")
 
 	if err != nil {
 		fmt.Println("error creating Discord session,", err)
@@ -44,7 +44,7 @@ func messageCreate(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}else
 	
 	if m.Content == "!nasa apod" {
-		res, err := http.Get("https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo")
+		res, err := http.Get("https://api.nasa.gov/planetary/apod?api_key=NasaApiKey")
 		if err != nil {
     	panic(err.Error())
     	return
