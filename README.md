@@ -3,7 +3,7 @@ Discord bot that returns the Astronomy Picture of the Day created with DiscordGo
 Try the bot by joining my discord server https://discord.gg/zubFRDa
 
 ## Example of response
-```
+```json
 Date : 2019-11-16
 Title : The Star Streams of NGC 5907
 Explanation : 
