@@ -23,7 +23,7 @@ func main(){
 
 	err = discord.Open()
 	if err != nil {
-		fmt.Println("error opening connection,", err)
+		fmt.Println("Error opening connection,", err)
 		return
 	}
 
